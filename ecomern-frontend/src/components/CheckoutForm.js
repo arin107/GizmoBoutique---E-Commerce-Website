@@ -26,7 +26,7 @@ function CheckoutForm() {
     try {
 
       const { client_secret } = await fetch(
-        "http://localhost:8080/create-payment",
+        "https://ecommerce-fwch.onrender.com/create-payment",
         {
           method: "POST",
           headers: {
